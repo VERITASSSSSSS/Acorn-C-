@@ -1,3 +1,9 @@
+**Class vs Struct**
+
+*global /local ->int 會被抹掉
+*private/public -> 決定可不可直接被叫出來
+
+
 //struct- hw 1
 
 #include <iostream>
@@ -58,4 +64,37 @@ int main(){
         cout<<p1.distance()<<'\n';
     }
 }
+
+*************************
+
+//structure --for app not for algorithms
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+class point{ //point 定義
+    private:
+        double x=0,y=0;
+    public:
+        void set(double a, double b){ //function 接收外來變數
+            x=a;
+            y=b;
+            }
+
+
+    double distance(){
+        return sqrt(x*x+y*y);
+    }
+};
+
+int main(){
+    point p1,p2;
+    int a,b;
+    while(cin>>a>>b){
+        p1.set(a,b); //一對一改變
+        cout<<p1.distance()<<'\n';
+    }
+}
+
 
