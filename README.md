@@ -7,3 +7,4 @@ https://mybinder.org/v2/gh/VERITASSSSSSS/Acorn-C-/148859ff105cf8742ff6aa7f834788
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/Constants-in-C.png">
 
 *TO SLICE STRING* -> s.substr(0,2)
+*%* -> is for int
