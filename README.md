@@ -8,3 +8,12 @@ https://mybinder.org/v2/gh/VERITASSSSSSS/Acorn-C-/148859ff105cf8742ff6aa7f834788
 
 *TO SLICE STRING* -> s.substr(0,2)
 *%* -> is for int
+
+QUESTIONS
+
+Point in Circle -> https://github.com/VERITASSSSSSS/Acorn-C-/blob/main/pointincircle.md
+
+Poker oop-> https://github.com/VERITASSSSSSS/Acorn-C-/blob/main/pokerenterfive.md
+
+Triangle -> https://github.com/VERITASSSSSSS/Acorn-C-/blob/main/Triangle.md
+
